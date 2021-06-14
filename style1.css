@@ -1,0 +1,219 @@
+*{
+font-family: cursive;
+}
+
+ /*   .ori{
+
+        top: 4%;
+        width: 50%;
+        text-align: center;
+        font-size: 40em;
+        color: blue;
+        letter-spacing: 0.1em;
+        font-family: 'Pacifico', cursive;
+        background: -webkit-linear-gradient(#ffff00, #ff1493);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 3s infinite ease-in-out;
+    }
+    
+    @-webkit-keyframes animaten {
+        0% {
+            -webkit-filter: hue-rotate(0deg);
+            transform: scale(1) rotate(0deg);
+        }
+    
+        50% {
+            -webkit-filter: hue-rotate(360deg);
+            transform: scale(1.2) rotate(360deg);
+        }
+    }*/
+    .ori{
+
+        top: 4%;
+        width: 50%;
+        text-align: center;
+        font-size: 6em;
+        color: blue;
+        letter-spacing: 0.1em;
+        font-family: 'Pacifico', cursive;
+        background: -webkit-linear-gradient(#ffff00, #ff1493);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: hue 3s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes hue {
+        0% {
+            -webkit-filter: hue-rotate(0deg);
+           
+        }
+    
+        50% {
+            -webkit-filter: hue-rotate(360deg);
+            transform: translate(100%) ;
+        }
+    }
+.new{
+    display: flex;
+     justify-content:space-between;
+     flex-flow:wrap;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color:black;
+}
+    .new img{
+        border: 2px solid black;
+        border-radius: 170px;
+
+    }
+    .panda img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+        
+    }
+    .chameleon img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .camel img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .cicada img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .piegon img{
+        border-radius: 20px;
+        background-color:white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    .teddy img{
+        border-radius: 20px;
+        background-color: white;
+        width: 170px;
+        font-family: fantasy;
+    }
+    body{
+ background-color:navajowhite;
+    }
+    /*
+body{
+margin: 0;
+padding: 0;
+background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8644ad);
+background-size: 400%;
+animation: bganimation 15s infinite;
+} 
+@keyframes bganimation{
+0%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+} */
+.panda:hover img{
+
+transform: scale(1.2);
+background-color:magenta
+}
+.teddy:hover img{
+    transform: scale(1.2);
+    background-color:tomato
+}
+.piegon:hover img{
+    transform: scale(1.2);
+    background-color:deeppink
+    }
+    .cicada:hover img{
+        transform: scale(1.2);
+        background-color:yellow
+        }
+        .camel:hover img{
+            transform: scale(1.2);
+            background-color:seagreen
+            }
+  .chameleon:hover img{
+ transform: scale(1.2);
+ background-color:orangered
+    }
+.panda r{
+position: absolute;
+top: 50%;
+right: 92% ;
+text-align: center;
+opacity: 0;
+}
+.panda:hover r{
+    opacity: 10;
+    top: 30%;
+}
+.teddy ab{
+    position: absolute;
+    top: 50%;
+    right: 56% ;
+    text-align: center;
+    opacity: 0;
+    }.teddy:hover ab{
+        opacity: 10;
+        top: 30%;
+    }
+    .camel r{
+        position: absolute;
+        top: 50%;
+        right: 22% ;
+        text-align: center;
+        opacity: 0;
+        }
+        .camel:hover r{
+            opacity: 10;
+            top: 30%;
+        }  
+        .chameleon r{
+            position: absolute;
+            top: 90%;
+            right: 90%;
+            text-align: center;
+            opacity: 0;
+            }
+            .chameleon:hover r{
+                opacity: 10;
+                top: 90%;
+            }      
+.cicada r2{
+    position: absolute;
+    top: 90%;
+    right: 40%;
+    text-align: center;
+    opacity: 0;
+}             
+.cicada:hover r2{
+    opacity: 10;
+    top: 90%;
+}
+.piegon a2{
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    text-align: center;
+    opacity: 0;
+}             
+.piegon:hover a2{
+    opacity: 10;
+    top: 157%;
+}
